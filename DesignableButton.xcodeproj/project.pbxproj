@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		37DEE89720248DB100786D2E /* DesignableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 37DEE89520248DB100786D2E /* DesignableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DEE89E20248DC800786D2E /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE89D20248DC800786D2E /* DesignableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37DEE89220248DB100786D2E /* DesignableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DesignableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DEE89520248DB100786D2E /* DesignableButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DesignableButton.h; sourceTree = "<group>"; };
 		37DEE89620248DB100786D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DEE89D20248DC800786D2E /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				37DEE89520248DB100786D2E /* DesignableButton.h */,
 				37DEE89620248DB100786D2E /* Info.plist */,
+				37DEE89D20248DC800786D2E /* DesignableButton.swift */,
 			);
 			path = DesignableButton;
 			sourceTree = "<group>";
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					37DEE89120248DB100786D2E = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DEE89E20248DC800786D2E /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		37DEE89B20248DB100786D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.angeluse.DesignableButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		37DEE89C20248DB100786D2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
