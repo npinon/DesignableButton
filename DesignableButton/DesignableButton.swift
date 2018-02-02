@@ -1,9 +1,9 @@
 //
 //  DesignableButton.swift
-//  Idle Hands Apps
+//  DesignableButton
 //
-//  Created by Fraser Scott-Morrison on 8/02/17.
-//  Copyright © 2017 Idle Hands Apps. All rights reserved.
+//  Created by Nicolas Pinon on 02/02/2018.
+//  Copyright © 2018 Nicolas Pinon. All rights reserved.
 //
 
 import UIKit
